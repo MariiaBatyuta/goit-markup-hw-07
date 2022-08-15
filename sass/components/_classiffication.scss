@@ -1,0 +1,23 @@
+.classiffication {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    margin-top: 50px;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.classiffication-link {
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.position-overlay,
+.classiffication-link {
+    position: relative;
+    overflow: hidden;
+}
+
+.what-we-do {
+    margin-bottom: 50px;
+}
