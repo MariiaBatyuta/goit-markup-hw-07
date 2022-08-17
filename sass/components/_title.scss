@@ -1,0 +1,60 @@
+.specialization-title {
+    margin-bottom: 50px;
+}
+
+.title-qualities {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.inform-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 10px;
+
+    &-portfolio {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: #212121;
+        margin-bottom: 4px;
+    }
+}
+
+.specialization-title,
+.team-title,
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.clients-title {
+    margin-bottom: 50px;
+}
+
+.team-title {
+    margin-bottom: 50px;
+}
+
+.join-title {
+    margin-bottom: 20px;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

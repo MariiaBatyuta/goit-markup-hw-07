@@ -1,0 +1,19 @@
+.characteristic-list {
+    display: flex;
+    column-gap: 30px;
+
+    &-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        border-radius: 4px;
+        background-color: #F5F4FA;
+        margin-bottom: 30px;
+    }
+}
+
+.characteristic-item {
+    width: 270px;
+}

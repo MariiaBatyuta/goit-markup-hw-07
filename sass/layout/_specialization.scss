@@ -1,24 +1,28 @@
-.classiffication {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 30px;
-    margin-top: 50px;
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
+.specialization {
+    padding-bottom: 94px;
+
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 30px;
+        margin-top: 50px;
+        list-style: none;
+        margin: 0;
+        padding-left: 0;
+    }
+
+    &-item {
+        flex-basis: calc((100% - 60px) / 3);
+    }
 
     &-link {
-        flex-basis: calc((100% - 60px) / 3);
-    
-        & {
-            position: relative;
-            overflow: hidden;
-        }
+        position: relative;
     }
 }
 
-.what-we-do {
-    margin-bottom: 50px;
+.position-overlay-we-do {
+    position: relative;
+    overflow: hidden;
 }
 
 .we-do-inform-part-photo {

@@ -10,3 +10,27 @@
     display: flex;
     align-items: center;
 }
+
+.smartphone {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+
+    &:hover,
+    &:focus {
+        fill: currentColor;
+    }
+}
+
+.phone-vector,
+.mail-vector {
+    left: 65.75%;
+    right: 33.25%;
+    top: 1.81%;
+    bottom: 97.55%;
+    color: #757575;
+    margin-right: 10px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+}

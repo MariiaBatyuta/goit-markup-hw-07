@@ -2,23 +2,28 @@
 @import './base/container';
 @import './base/section';
 
-@import './components/page-navigation';
-@import './components/modal-button';
-@import './components/logo';
-@import './components/contacts';
-@import './components/buttons';
-@import './components/overlay';
-@import './components/characteristic';
-@import './components/classiffication';
-@import './components/team';
 
+@import './components/active-page';
+@import './components/buttons';
+@import './components/description';
+@import './components/logo';
+@import './components/media-list';
+@import './components/modal-buttom';
+@import './components/subtitle';
+@import './components/title';
+
+
+@import './layout/characteristic';
+@import './layout/clients';
+@import './layout/footer';
 @import './layout/header';
 @import './layout/hero';
-@import './layout/footer';
-@import './layout/modal-window';
-@import './layout/portfolio';
+@import './layout/modal.window';
+@import './layout/navigation';
+@import './layout/projects';
+@import './layout/specialization';
+@import './layout/team';
+
 
 @import './utils/variables';
 @import './utils/visually-hidden';
-@import './utils/titles';
-
